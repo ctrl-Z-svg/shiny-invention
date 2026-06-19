@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "homework-helper-webapp",
   "version": "1.0.0",
@@ -12,18 +11,3 @@
     "groq-sdk": "^1.0.0"
   }
 }
-=======
-{
-  "name": "homework-helper-webapp",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.4",
-    "groq-sdk": "^1.0.0"
-  }
-}
->>>>>>> a55063b340d8b7fda05095c9db6865844ac85dc3
