@@ -1,5 +1,3 @@
-import 'dotenv/config';
-
 const topicSelect = document.getElementById('topic');
 const questionInput = document.getElementById('question');
 const helpBtn = document.getElementById('helpBtn');
