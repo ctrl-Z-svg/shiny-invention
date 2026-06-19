@@ -1,3 +1,4 @@
+import 'dotenv/config';
 
 const topicSelect = document.getElementById('topic');
 const questionInput = document.getElementById('question');
@@ -41,7 +42,7 @@ helpBtn.addEventListener('click', async () => {
 
   answerBox.innerHTML = loader;
   try {
-    const response = await fetch('/api/chat', {
+    const response = await fetch(`${process.env.BACKEND_URL}/api/chat`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ topic, prompt })
